@@ -8,7 +8,7 @@ LIBPATH_env = "PATH"
 LIBPATH_default = ""
 
 # Relative path to `libicudata`
-const libicudata_splitpath = ["bin", "icudt.dll"]
+const libicudata_splitpath = ["bin", "icudt67.dll"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libicudata_path = ""
@@ -18,11 +18,11 @@ libicudata_path = ""
 libicudata_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libicudata = "icudt.dll"
+const libicudata = "icudt67.dll"
 
 
 # Relative path to `libicui18n`
-const libicui18n_splitpath = ["bin", "icuin.dll"]
+const libicui18n_splitpath = ["bin", "icuin67.dll"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libicui18n_path = ""
@@ -32,11 +32,11 @@ libicui18n_path = ""
 libicui18n_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libicui18n = "icuin.dll"
+const libicui18n = "icuin67.dll"
 
 
 # Relative path to `libicuio`
-const libicuio_splitpath = ["bin", "icuio.dll"]
+const libicuio_splitpath = ["bin", "icuio67.dll"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libicuio_path = ""
@@ -46,11 +46,11 @@ libicuio_path = ""
 libicuio_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libicuio = "icuio.dll"
+const libicuio = "icuio67.dll"
 
 
 # Relative path to `libicutest`
-const libicutest_splitpath = ["bin", "icutest.dll"]
+const libicutest_splitpath = ["bin", "icutest67.dll"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libicutest_path = ""
@@ -60,11 +60,11 @@ libicutest_path = ""
 libicutest_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libicutest = "icutest.dll"
+const libicutest = "icutest67.dll"
 
 
 # Relative path to `libicutu`
-const libicutu_splitpath = ["bin", "icutu.dll"]
+const libicutu_splitpath = ["bin", "icutu67.dll"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libicutu_path = ""
@@ -74,11 +74,11 @@ libicutu_path = ""
 libicutu_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libicutu = "icutu.dll"
+const libicutu = "icutu67.dll"
 
 
 # Relative path to `libicuuc`
-const libicuuc_splitpath = ["bin", "icuuc.dll"]
+const libicuuc_splitpath = ["bin", "icuuc67.dll"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libicuuc_path = ""
@@ -88,57 +88,60 @@ libicuuc_path = ""
 libicuuc_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libicuuc = "icuuc.dll"
+const libicuuc = "icuuc67.dll"
 
+
+# Inform that the wrapper is available for this platform
+wrapper_available = true
 
 """
 Open all libraries
 """
 function __init__()
-    global artifact_dir = abspath(artifact"ICU")
+    # This either calls `@artifact_str()`, or returns a constant string if we're overridden.
+    global artifact_dir = find_artifact_dir()
 
-    # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
     global libicudata_path = normpath(joinpath(artifact_dir, libicudata_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libicudata_handle = dlopen(libicudata_path)
+    global libicudata_handle = dlopen(libicudata_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libicudata_path))
 
     global libicui18n_path = normpath(joinpath(artifact_dir, libicui18n_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libicui18n_handle = dlopen(libicui18n_path)
+    global libicui18n_handle = dlopen(libicui18n_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libicui18n_path))
 
     global libicuio_path = normpath(joinpath(artifact_dir, libicuio_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libicuio_handle = dlopen(libicuio_path)
+    global libicuio_handle = dlopen(libicuio_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libicuio_path))
 
     global libicutest_path = normpath(joinpath(artifact_dir, libicutest_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libicutest_handle = dlopen(libicutest_path)
+    global libicutest_handle = dlopen(libicutest_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libicutest_path))
 
     global libicutu_path = normpath(joinpath(artifact_dir, libicutu_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libicutu_handle = dlopen(libicutu_path)
+    global libicutu_handle = dlopen(libicutu_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libicutu_path))
 
     global libicuuc_path = normpath(joinpath(artifact_dir, libicuuc_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
-    global libicuuc_handle = dlopen(libicuuc_path)
+    global libicuuc_handle = dlopen(libicuuc_path, RTLD_LAZY | RTLD_DEEPBIND)
     push!(LIBPATH_list, dirname(libicuuc_path))
 
     # Filter out duplicate and empty entries in our PATH and LIBPATH entries
@@ -146,5 +149,6 @@ function __init__()
     filter!(!isempty, unique!(LIBPATH_list))
     global PATH = join(PATH_list, ';')
     global LIBPATH = join(vcat(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)]), ';')
-end  # __init__()
 
+    
+end  # __init__()
