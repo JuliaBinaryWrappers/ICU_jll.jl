@@ -74,7 +74,7 @@ libicutu_path = ""
 libicutu_handle = C_NULL
 
 # This must be `const` so that we can use it with `ccall()`
-const libicutu = "libicutu.67.dylib"
+const libicutu = "@rpath/libicutu.67.dylib"
 
 
 # Relative path to `libicuuc`
