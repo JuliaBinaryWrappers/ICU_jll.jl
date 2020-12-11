@@ -1,6 +1,6 @@
 name = "ICU_jll"
 uuid = "a51ab1cf-af8e-5615-a023-bc2c838bba6b"
-version = "67.1.0+2"
+version = "67.1.0+3"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
