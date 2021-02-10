@@ -2,47 +2,47 @@
 export libicudata, libicui18n, libicuio, libicutest, libicutu, libicuuc
 
 JLLWrappers.@generate_wrapper_header("ICU")
-JLLWrappers.@declare_library_product(libicudata, "@rpath/libicudata.67.dylib")
-JLLWrappers.@declare_library_product(libicui18n, "@rpath/libicui18n.67.dylib")
-JLLWrappers.@declare_library_product(libicuio, "@rpath/libicuio.67.dylib")
-JLLWrappers.@declare_library_product(libicutest, "@rpath/libicutest.67.dylib")
-JLLWrappers.@declare_library_product(libicutu, "@rpath/libicutu.67.dylib")
-JLLWrappers.@declare_library_product(libicuuc, "@rpath/libicuuc.67.dylib")
+JLLWrappers.@declare_library_product(libicudata, "@rpath/libicudata.68.dylib")
+JLLWrappers.@declare_library_product(libicui18n, "@rpath/libicui18n.68.dylib")
+JLLWrappers.@declare_library_product(libicuio, "@rpath/libicuio.68.dylib")
+JLLWrappers.@declare_library_product(libicutest, "@rpath/libicutest.68.dylib")
+JLLWrappers.@declare_library_product(libicutu, "@rpath/libicutu.68.dylib")
+JLLWrappers.@declare_library_product(libicuuc, "@rpath/libicuuc.68.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libicudata,
-        "lib/libicudata.67.1.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
+        "lib/libicudata.68.2.dylib",
+        nothing,
     )
 
     JLLWrappers.@init_library_product(
         libicui18n,
-        "lib/libicui18n.67.1.dylib",
+        "lib/libicui18n.68.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicuio,
-        "lib/libicuio.67.1.dylib",
+        "lib/libicuio.68.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicutest,
-        "lib/libicutest.67.1.dylib",
+        "lib/libicutest.68.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicutu,
-        "lib/libicutu.67.1.dylib",
+        "lib/libicutu.68.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicuuc,
-        "lib/libicuuc.67.1.dylib",
+        "lib/libicuuc.68.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
