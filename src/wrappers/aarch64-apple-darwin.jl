@@ -2,47 +2,47 @@
 export libicudata, libicui18n, libicuio, libicutest, libicutu, libicuuc
 
 JLLWrappers.@generate_wrapper_header("ICU")
-JLLWrappers.@declare_library_product(libicudata, "@rpath/libicudata.69.dylib")
-JLLWrappers.@declare_library_product(libicui18n, "@rpath/libicui18n.69.dylib")
-JLLWrappers.@declare_library_product(libicuio, "@rpath/libicuio.69.dylib")
-JLLWrappers.@declare_library_product(libicutest, "@rpath/libicutest.69.dylib")
-JLLWrappers.@declare_library_product(libicutu, "@rpath/libicutu.69.dylib")
-JLLWrappers.@declare_library_product(libicuuc, "@rpath/libicuuc.69.dylib")
+JLLWrappers.@declare_library_product(libicudata, "@rpath/libicudata.74.dylib")
+JLLWrappers.@declare_library_product(libicui18n, "@rpath/libicui18n.74.dylib")
+JLLWrappers.@declare_library_product(libicuio, "@rpath/libicuio.74.dylib")
+JLLWrappers.@declare_library_product(libicutest, "@rpath/libicutest.74.dylib")
+JLLWrappers.@declare_library_product(libicutu, "@rpath/libicutu.74.dylib")
+JLLWrappers.@declare_library_product(libicuuc, "@rpath/libicuuc.74.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libicudata,
-        "lib/libicudata.69.1.dylib",
+        "lib/libicudata.74.1.dylib",
         nothing,
     )
 
     JLLWrappers.@init_library_product(
         libicui18n,
-        "lib/libicui18n.69.1.dylib",
+        "lib/libicui18n.74.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicuio,
-        "lib/libicuio.69.1.dylib",
+        "lib/libicuio.74.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicutest,
-        "lib/libicutest.69.1.dylib",
+        "lib/libicutest.74.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicutu,
-        "lib/libicutu.69.1.dylib",
+        "lib/libicutu.74.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicuuc,
-        "lib/libicuuc.69.1.dylib",
+        "lib/libicuuc.74.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
