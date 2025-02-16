@@ -2,12 +2,12 @@
 export libicudata, libicui18n, libicuio, libicutest, libicutu, libicuuc
 
 JLLWrappers.@generate_wrapper_header("ICU")
-JLLWrappers.@declare_library_product(libicudata, "libicudata.so.74")
-JLLWrappers.@declare_library_product(libicui18n, "libicui18n.so.74")
-JLLWrappers.@declare_library_product(libicuio, "libicuio.so.74")
-JLLWrappers.@declare_library_product(libicutest, "libicutest.so.74")
-JLLWrappers.@declare_library_product(libicutu, "libicutu.so.74")
-JLLWrappers.@declare_library_product(libicuuc, "libicuuc.so.74")
+JLLWrappers.@declare_library_product(libicudata, "libicudata.so.76")
+JLLWrappers.@declare_library_product(libicui18n, "libicui18n.so.76")
+JLLWrappers.@declare_library_product(libicuio, "libicuio.so.76")
+JLLWrappers.@declare_library_product(libicutest, "libicutest.so.76")
+JLLWrappers.@declare_library_product(libicutu, "libicutu.so.76")
+JLLWrappers.@declare_library_product(libicuuc, "libicuuc.so.76")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
