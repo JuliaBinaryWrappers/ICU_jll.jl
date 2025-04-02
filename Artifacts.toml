@@ -5,7 +5,7 @@ os = "macos"
 
     [[ICU.download]]
     sha256 = "69904ff279f2ac8215be527d187edc4bc4d55eba58df3443073f0e741f8fc538"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.aarch64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.aarch64-apple-darwin.tar.gz"
 [[ICU]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
@@ -15,7 +15,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "84839fb61cb068160350623eb8883d5d151118b460ca9aed69cea65a0fb07f9b"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.aarch64-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.aarch64-linux-gnu-cxx03.tar.gz"
 [[ICU]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
@@ -25,7 +25,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "a8aa4fe4292c6b103dac54a490ffa344ca8a986db5b7b949fa5e4243847fb351"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.aarch64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.aarch64-linux-gnu-cxx11.tar.gz"
 [[ICU]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
@@ -35,7 +35,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "c6cb55aa1d592ccd6d8e779ba75f373d6fc731e47e0258396a122c03d1e67735"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.aarch64-linux-musl-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.aarch64-linux-musl-cxx03.tar.gz"
 [[ICU]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
@@ -45,15 +45,15 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "ba790d1836b66d79d9444d5ea90ce94a2b590e134548b561b36810b4f9d2dc97"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.aarch64-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.aarch64-linux-musl-cxx11.tar.gz"
 [[ICU]]
 arch = "aarch64"
-git-tree-sha1 = "1ec73481dbf0befb31a283b75031403b524a12ca"
+git-tree-sha1 = "9a1629dcc19ab53e85b2ea8570009c7683d98283"
 os = "freebsd"
 
     [[ICU.download]]
-    sha256 = "930586c5219c6962c02fa98e58c3102bc0a78863d4de8c404ff490ef627b06b9"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "001f23d116285b3f3a4db69f1900b5188c92257ab9419f496d643aa6d0123d3c"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.aarch64-unknown-freebsd.tar.gz"
 [[ICU]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -64,7 +64,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "0b654508aac5633a5b71fa62955e3c809622db023efc4670ec4383ca9030fe38"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
 [[ICU]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -75,7 +75,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "5a4c96baf94ac42ae212ab9aa684b2bc9c00d123d006295f7fde3143a313922b"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[ICU]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -86,7 +86,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "5304280c4a7125a6ea29d8c384bd6a5b9c66e42b20406497c883b3142a3ce228"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.armv6l-linux-musleabihf-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.armv6l-linux-musleabihf-cxx03.tar.gz"
 [[ICU]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -97,7 +97,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "17ca6454ba67895eecbdb72a7a62f2ecb556ff32febe36ba3eb0c0eae0d13646"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.armv6l-linux-musleabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[ICU]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -108,7 +108,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "8c06885b22af1f7cc023390a89e05237ff9e9ce11d439d44bd69026527532510"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[ICU]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -119,7 +119,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "b6403a2d9310babdf1ac47dbc3ca91aedd8de4028201f703551eb6d5203c6652"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[ICU]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -130,7 +130,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "2a6008b162664b7b283db13e33b90b8544e8f2223cbc4b1e53f0db56b7669abb"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[ICU]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -141,7 +141,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "0a1c387b6130dd08920dd971d8301c975f5a0d8f9913301967b88077c14ed2bd"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[ICU]]
 arch = "i686"
 cxxstring_abi = "cxx03"
@@ -151,7 +151,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "b7d83829bcf9f2e8b835ccec22e3b692112fe5fd47a646c5071d1f0d97a286ac"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.i686-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.i686-linux-gnu-cxx03.tar.gz"
 [[ICU]]
 arch = "i686"
 cxxstring_abi = "cxx11"
@@ -161,7 +161,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "7bdc0c043124f670ad288a6bee50a912563864e8d54b7d23e828b63c11d9137d"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.i686-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.i686-linux-gnu-cxx11.tar.gz"
 [[ICU]]
 arch = "i686"
 cxxstring_abi = "cxx03"
@@ -171,7 +171,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "66acfa6c9c5ba9e734617d8f3f4d8f0befeaa93b60339eac60bdb407b8f20c43"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.i686-linux-musl-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.i686-linux-musl-cxx03.tar.gz"
 [[ICU]]
 arch = "i686"
 cxxstring_abi = "cxx11"
@@ -181,25 +181,25 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "ea297c28bbe2cc26b1d1d46bd151d87715b15911032db580c301a0ebc80ee30c"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.i686-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.i686-linux-musl-cxx11.tar.gz"
 [[ICU]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "514954db8577c7cf5051d002aa040e5a239cbd7f"
+git-tree-sha1 = "6ff646a36f8190f48ea8729d44e6cef275df1a87"
 os = "windows"
 
     [[ICU.download]]
-    sha256 = "b14a415c2da6111f14b0fb86151b321b5bed98dca15c8fbf82e12a0393d431f4"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "389a0278aab399c86ebc9abb226894d91e4741dc06504cf6ef5198dc2ecebad1"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.i686-w64-mingw32-cxx03.tar.gz"
 [[ICU]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d578059784d3fb70498c1be46e81b1b8eccf01a3"
+git-tree-sha1 = "21cd6c855d75e8caff7b7b1cf63d1a2a6be0b8c9"
 os = "windows"
 
     [[ICU.download]]
-    sha256 = "bf6c1f24b11ff4b60d2b3b047e6bd1470c69491b9b8729cadabe66d70c326a60"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "8c19fbe1c9a76fae1cba532e372eb610a01024adc202198f10a66cac44ef78c5"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.i686-w64-mingw32-cxx11.tar.gz"
 [[ICU]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
@@ -209,7 +209,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "9d630e45094365fd5c30ff0488d39ce05d6ffa57a0ca8723c2392e89dd9f2dd9"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[ICU]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
@@ -219,7 +219,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "bb9d73f7560a4d8bc05b81ef064c48603af31634c3539a043daeef5c61aba313"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[ICU]]
 arch = "riscv64"
 cxxstring_abi = "cxx03"
@@ -229,7 +229,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "4f403739d5713f3c3a43bf27cdd69b69294945b1aa05205bff1787017264e460"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.riscv64-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.riscv64-linux-gnu-cxx03.tar.gz"
 [[ICU]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
@@ -239,7 +239,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "207d8bb81e17371af9b363ac97b91a9f0205ee6fc2f7b6c7d2c441460491719c"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.riscv64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.riscv64-linux-gnu-cxx11.tar.gz"
 [[ICU]]
 arch = "x86_64"
 git-tree-sha1 = "982f879729a17208f25855289075eac230f37fe7"
@@ -247,7 +247,7 @@ os = "macos"
 
     [[ICU.download]]
     sha256 = "6099e53b5fb22d210af70866deee9314cc527e14e7395d2a9f7ca29b3130f392"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.x86_64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.x86_64-apple-darwin.tar.gz"
 [[ICU]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
@@ -257,7 +257,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "3f8d596dc9d6475c921d2ac897bb2b3d6c79b97bd191c1ffa23ad0565cbb9475"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.x86_64-linux-gnu-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.x86_64-linux-gnu-cxx03.tar.gz"
 [[ICU]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -267,7 +267,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "6f0747af9b258406c43030399e863792e6fd3d78b6772f4da8d4782e2007b189"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.x86_64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.x86_64-linux-gnu-cxx11.tar.gz"
 [[ICU]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
@@ -277,7 +277,7 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "cd4664014641f00851a828076bfbed3af9e7dffbe5aa7d5fe10a1b06bd735221"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.x86_64-linux-musl-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.x86_64-linux-musl-cxx03.tar.gz"
 [[ICU]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -287,15 +287,15 @@ os = "linux"
 
     [[ICU.download]]
     sha256 = "6e9fd672f0587118cfd5f67fc3394b289634f2e2adf24579e239cb7c134fa292"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.x86_64-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.x86_64-linux-musl-cxx11.tar.gz"
 [[ICU]]
 arch = "x86_64"
-git-tree-sha1 = "1806fdb12fa4d91f4d7d8dd2bc6eb8357d552c2a"
+git-tree-sha1 = "513ffc00cda0d4adfdd7c3bde683639ae0410ad6"
 os = "freebsd"
 
     [[ICU.download]]
-    sha256 = "8fe12f8ada499b65336a4db8c3f3c77444210387a73b15edd73f697963f929b0"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "c832cf95075186b257b9ed481b38af1b4d49675bde3decfd450f616acb054277"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.x86_64-unknown-freebsd.tar.gz"
 [[ICU]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
@@ -304,7 +304,7 @@ os = "windows"
 
     [[ICU.download]]
     sha256 = "eb668aa05614f72f6c19d0a9cb06b0b5a6471446a6e432271f693d46f0603192"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.x86_64-w64-mingw32-cxx03.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.x86_64-w64-mingw32-cxx03.tar.gz"
 [[ICU]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -313,4 +313,4 @@ os = "windows"
 
     [[ICU.download]]
     sha256 = "7f920ac76a8d440fb61270cb38ba2f215e37fcceed0d7befc11800f749f85047"
-    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.1.0+0/ICU.v76.1.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/ICU_jll.jl/releases/download/ICU-v76.2.0+0/ICU.v76.2.0.x86_64-w64-mingw32-cxx11.tar.gz"
