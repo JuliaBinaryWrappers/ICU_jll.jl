@@ -2,47 +2,47 @@
 export libicudata, libicui18n, libicuio, libicutest, libicutu, libicuuc
 
 JLLWrappers.@generate_wrapper_header("ICU")
-JLLWrappers.@declare_library_product(libicudata, "icudt76.dll")
-JLLWrappers.@declare_library_product(libicui18n, "icuin76.dll")
-JLLWrappers.@declare_library_product(libicuio, "icuio76.dll")
-JLLWrappers.@declare_library_product(libicutest, "icutest76.dll")
-JLLWrappers.@declare_library_product(libicutu, "icutu76.dll")
-JLLWrappers.@declare_library_product(libicuuc, "icuuc76.dll")
+JLLWrappers.@declare_library_product(libicudata, "icudt79.dll")
+JLLWrappers.@declare_library_product(libicui18n, "icuin79.dll")
+JLLWrappers.@declare_library_product(libicuio, "icuio79.dll")
+JLLWrappers.@declare_library_product(libicutest, "icutest79.dll")
+JLLWrappers.@declare_library_product(libicutu, "icutu79.dll")
+JLLWrappers.@declare_library_product(libicuuc, "icuuc79.dll")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libicudata,
-        "bin\\icudt76.dll",
+        "bin\\icudt79.dll",
         nothing,
     )
 
     JLLWrappers.@init_library_product(
         libicui18n,
-        "bin\\icuin76.dll",
+        "bin\\icuin79.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicuio,
-        "bin\\icuio76.dll",
+        "bin\\icuio79.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicutest,
-        "bin\\icutest76.dll",
+        "bin\\icutest79.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicutu,
-        "bin\\icutu76.dll",
+        "bin\\icutu79.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libicuuc,
-        "bin\\icuuc76.dll",
+        "bin\\icuuc79.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
